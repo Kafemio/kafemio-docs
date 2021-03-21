@@ -10,6 +10,19 @@ module.exports = {
    */
   description: description,
 
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'Kafemio',
+      description: 'Cafe Management Software'
+    },
+    '/tr/': {
+      lang: 'tr-TR',
+      title: 'Kafemio',
+      description: 'Kafe Yönetim Yazılımı'
+    }
+  },
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -39,6 +52,33 @@ module.exports = {
       }
     ],
     sidebar: {
+
+    },
+    locales: {
+      '/': {
+        selectText: 'Languages',
+        label: 'English',
+        ariaLabel: 'Languages',
+        editLinkText: 'Edit this page on GitHub',
+        serviceWorker: {
+          updatePopup: {
+            message: 'New content is available.',
+            buttonText: 'Refresh'
+          }
+        }
+      },
+      '/tr/': {
+        selectText: 'Diller',
+        label: 'Türkçe',
+        ariaLabel: 'Diller',
+        editLinkText: 'Bu sayfayı GitHub\'da düzenle',
+        serviceWorker: {
+          updatePopup: {
+            message: 'Yeni içerikler bulundu.',
+            buttonText: 'Yenile'
+          }
+        }
+      }
     }
   },
 
