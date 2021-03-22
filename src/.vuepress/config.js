@@ -65,6 +65,13 @@ module.exports = {
             message: 'New content is available.',
             buttonText: 'Refresh'
           }
+        },
+        sidebar: {
+          '/developer-guide': [
+            '/developer-guide/controllers',
+            '/developer-guide/models',
+            '/developer-guide/routes'
+          ]
         }
       },
       '/tr/': {
@@ -77,6 +84,13 @@ module.exports = {
             message: 'Yeni içerikler bulundu.',
             buttonText: 'Yenile'
           }
+        },
+        sidebar: {
+          '/tr/developer-guide': [
+            '/tr/developer-guide/controllers',
+            '/tr/developer-guide/models',
+            '/tr/developer-guide/routes'
+          ]
         }
       }
     }
